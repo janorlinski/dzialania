@@ -11,5 +11,6 @@ double iloczyn (double a, double b) {
 }
 
 double iloraz (double a, double b) {
-	return a/b;
+	if (b==0) return 0.0;
+	else return a/b;
 }
