@@ -6,7 +6,7 @@ double roznica(double a, double b) {
 	return a-b;
 }
 
-double iloczyn (duble a, double b) {
+double iloczyn (double a, double b) {
 	return a*b;
 }
 
