@@ -11,5 +11,9 @@ double iloczyn (double a, double b) {
 }
 
 double iloraz (double a, double b) {
-	return a/b;
+	if (b!=0) return a/b;
+	else {
+		std::cout << "Blad! Nie mozna dzielic przez 0!" << std::endl;
+		return 0.;
+	}
 }
